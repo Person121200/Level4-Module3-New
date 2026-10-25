@@ -25,7 +25,10 @@ public class SpiesOnATrainTest {
             "carrying a brown briefcase", "carrying a blue briefcase" };
     
     private String spy;
-
+    @Test
+    public void testMatcher() {
+    	SpiesOnATrain.parseName("I saw phillip eating a cherry pie");
+    }
     @Test
     public void findIntelTest() {
 
